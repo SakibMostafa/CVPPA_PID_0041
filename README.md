@@ -38,5 +38,5 @@ SSIM_Cut.py takes the generated GBP images and calculate the SSIM Cut Curve for 
 
 Here is an example of the GBP of different models on the Weedling dataset:
 
-![An image](./readme_Images/image_1.png)
+![An image](readme_Images/image_1.png)
 _GBP of the final convolutional layer for different CNN models used in the study on the Weedling dataset._
