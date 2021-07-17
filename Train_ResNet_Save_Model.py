@@ -20,7 +20,7 @@ train_data_dir = 'data/train'               #Training image directory
 validation_data_dir = 'data/validation'     #Testing image directory
 nb_train_samples = 80407                    #Number of training Samples
 nb_validation_samples = 23535               #Number of testing Samples
-epochs = 20                                 #Training Epochs
+epochs = 100                                 #Training Epochs
 batch_size = 16                             #Batch Size
 num_class = 7                               #Number of classes in the classification task
 
@@ -73,7 +73,6 @@ checkpoint = ModelCheckpoint("Weedling_Best.h5",
                              save_weights_only=False)
 new_model.fit_generator(
     train_generator,
-    steps_per_epoch = nb_train_samples // batch_size,
     epochs = epochs,
     validation_data = validation_generator,
     verbose = 1,
