@@ -1,5 +1,5 @@
 keras==2.13
-tensorflow==2.11.1
+tensorflow>=2.12.1
 numpy==1.23.0
 tqdm==4.48.2
 scikit-image==0.17.2
